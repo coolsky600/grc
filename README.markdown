@@ -1,3 +1,10 @@
+# 使用方式
+
+1. git clone 或者 下载zip包。
+2. 运行install.sh
+3. 在命令前添加 grc，例如grc tail -200f /tmp/logs/driver-business.2016-10-25.log
+4. enjoy
+
 # Generic Colouriser
 
 Radovan Garabík  http://kassiopeia.juls.savba.sk/~garabik/software/grc.html
