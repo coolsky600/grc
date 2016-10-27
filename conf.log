@@ -76,7 +76,7 @@ count=more
 
 ======
 # 方法名称
-regexp=\.[^\.]*?\) 
+regexp=\.[0-9A-Za-z\(]*?\)
 colours=bold white
 count=more
 

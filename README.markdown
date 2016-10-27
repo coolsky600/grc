@@ -1,9 +1,16 @@
 # 使用方式
 
-1. git clone 或者 下载zip包。
-2. 运行install.sh
-3. 在命令前添加 grc，例如grc tail -200f /tmp/logs/driver-business.2016-10-25.log
-4. enjoy
+1.推荐方式（需要root权限）
+	1）. git clone 本项目。
+	2）. 运行install.sh
+	3）. 在命令前添加 grc，例如grc tail -200f /tmp/logs/driver-business.2016-10-25.log
+	4）. enjoy
+2.绿化方式（无需root权限）
+	1）. 下载logViewer.tar.gz 
+	2）. 解压在/home/xiaoju下 (必须)
+	3）. 编辑~/.bash_profile  添加 alias ctail=‘/home/xiaoju/logViewer/bin/grc’
+	4）. 使用ctail查看日志，例如ctail -200f /tmp/logs/driver-business.2016-10-25.log
+	5）. enjoy
 
 # Generic Colouriser
 
